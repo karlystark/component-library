@@ -1,0 +1,63 @@
+
+.card {
+  border-radius: 15px;
+}
+
+.card .box {
+  position: relative;
+  min-height: 200px;
+  border-radius: inherit;
+}
+
+.card .box:nth-child(2){
+  background: #fcf1e9;
+  width: 100%;
+}
+
+.card .circle {
+  position: absolute;
+  top: 100px;
+  left: -70px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.card .circle .imgBx{
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.card .box .imgBx {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  overflow: hidden;
+}
+
+.card .circle .imgBx img,
+.card .circle .imgBx video{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .box .content{
+  inset: 0;
+  width: 320px;
+  padding: 30px;
+}
+
+.content h2 {
+  font-size: 2.2rem;
+  margin-top: -13%;
+  line-height: 1.2;
+  margin-bottom: 5%;
+  text-align: end;
+}
+
+.content p {
+  text-align: end;
+}
